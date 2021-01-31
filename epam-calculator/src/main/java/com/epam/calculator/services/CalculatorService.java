@@ -8,6 +8,8 @@ public interface CalculatorService {
 	 * @param number2
 	 * @return sum of two numbers
 	 */
+	public int subtractNumbers(int number1, int number2);
+	
 	public int addNumber(int number1, int number2);
 
 	/**
@@ -25,5 +27,5 @@ public interface CalculatorService {
 	 * @return division of two numbers
 	 */
 	public double divideNumbers(int number1, int number2);
-
+	
 }

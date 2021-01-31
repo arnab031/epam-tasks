@@ -30,6 +30,9 @@ public class App {
 		case '+':
 			result = calculatorService.addNumber(number1, number2);
 			break;
+		case '-':
+			result = calculatorService.subtractNumbers(number1, number2);
+			break;
 		case '*':
 			result = calculatorService.multiplyNumbers(number1, number2);
 			break;

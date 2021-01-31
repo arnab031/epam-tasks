@@ -16,6 +16,12 @@ public class CalculatorServiceImpl implements CalculatorService {
 
 		return sumOfTwoNumbers;
 	}
+	public int subtractNumber(int number1, int number2) {
+		
+		int subtractOfTwoNumbers = number1-number2;
+		
+		return subtractOfTwoNumbers;
+	}
 
 	/**
 	 * the following function is used to multiply two numbers
